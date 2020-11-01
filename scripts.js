@@ -30,14 +30,3 @@ function emailVerfication() {
 }
 
 
-
-
-
-
-
-
-/*
-var text = getElementByID('email');
-if (userEmail.innerHTML === validEmail);
-if (userEmail.match(validEmail));
-*/
