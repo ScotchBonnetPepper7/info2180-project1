@@ -9,3 +9,255 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+/* Header of the Website */
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+}
+
+/* The big heading design */
+h1 {
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+/* Styling the topnav links */
+nav a {
+    color: #6b7280;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/*Changing the colour of the about */
+ul :nth-child(1) a {
+    color: blue;
+
+}
+
+/* Change color on hover */
+nav a:hover {
+    color: #5A67D8;
+}
+
+/*Creating a flex box for the list section */
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+/* To remove the bullet points from the list */
+li {
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+
+/* Styling the section for the Overview-hero class (The Live Your Healthiest Life Section) */
+.overview-hero{
+    height: auto;
+    background-color: #E2E8F0; 
+    margin-left: 85px;
+    margin-right: 85px;
+
+}
+
+.overview-hero .conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.overview-hero-image {
+    float: left;
+    padding: 15px;
+}
+
+.overview-hero-image img {
+    width: 175px;
+    height: 200px;
+}
+
+.overview-hero-text h2 {
+    padding: 10px;
+    padding-top: 60px;
+}
+
+.overview-hero-text p {
+    padding: 10px;
+    padding-bottom: 60px;
+
+}
+
+/*Styling the section for the Learn About class/section */
+.learn-about h2{
+    color: #48BB78;
+    font-size: 24px;
+}
+
+.learn-about h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+/*Adding CSS grids to the cards*/
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;  
+    padding-bottom: 20px;
+    
+}
+
+/*Styling the grids' borders*/
+.card {
+    border-style: solid;
+    border-color: #E2E8F0;
+    border-radius: 6px;
+    box-shadow: 0px 5px grey;
+    padding: 10px;
+   
+}
+
+/* Styling the images in the cards*/
+.card img {
+    width: 265px;
+    height: 250px;
+
+}
+
+/*Styling the section for COVID-19 Testing Programme*/
+.testing .container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: #4A5568;
+    color: white;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+
+/* Styling the section for the COVID=19 Testing Program*/
+/* Making the paragrah and header float to the left and setting the size of the paragraph*/
+.testing-desciption {
+    float: left;
+    width: 600px;
+}
+
+/* Setting the button section more to the right */
+.cta {
+    margin: auto 0;
+}
+
+/*Styling the Learn About button*/
+.cta .btn {
+    float: right;
+    color: white;
+    text-decoration: none;
+    background-color: #48bb48;
+    border-style: solid;
+    border-color: #48bb48;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+/* Styling the Recent Stories Section*/
+.stories .container{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+
+}
+
+/* Styling both the images*/
+.stories img {
+    float: left;
+    border-radius: 90%;
+    position: left;
+    width: 130px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+}
+
+/* Styling the heading*/
+.stories h2 {
+    float: right;
+    color: #5A67D8;
+    
+}
+
+/* Styling the "Read this Story" in Recent Stories*/
+.stories p a {
+    color: #5A67D8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Styling the Newsletter Section */
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    color: white;
+    background-color: #48BB78;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.newsletter h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.newsletter p {
+    text-align: center;
+    padding-bottom: 25px;  
+}
+
+/* Styling the Subscribe button */
+.newsletter .btn {
+    float: right;
+    background-color: #5A67D8;
+    border-style: solid;
+    border-color: #5A67D8;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+    margin-right: 320px;
+}
+
+/* Styling the email section*/
+.form-group {
+   float: left;
+   margin-left: 305px;
+}
+
+.form-group input {
+    height: 43px;
+    width: 200px;
+    border-color: white;
+    border-radius: 5px;
+}
+
+/* Styling the footer */
+footer .container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    color: white;
+    background-color: #4A5568;
+    padding-top: 10px;
+    padding-left: 150px;
+}
